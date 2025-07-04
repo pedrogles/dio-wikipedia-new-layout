@@ -28,3 +28,19 @@ Este é um projeto em HTML criado como parte do **Santander Bootcamp Front-end D
 ├── README.md                           # Documentação do projeto
 ├── style.css                           # Estilos específicos para a página principal`
 ```
+
+--- 
+
+## 📄 Páginas
+
+### Página inicial
+![image](https://github.com/user-attachments/assets/544ec198-e5fe-4db6-9895-0278c1be908f)
+
+### Acessibilidade Web
+![image](https://github.com/user-attachments/assets/731b6ba8-162c-451b-833a-154fd62b6887)
+
+### Tecnologia
+![image](https://github.com/user-attachments/assets/29612f82-b4c2-4e03-96d5-e0e75944222f)
+
+
+---
