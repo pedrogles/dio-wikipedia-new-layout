@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+header {
+    padding: 1rem;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.logo {
+    width: 3rem;
+}
+.text-images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.wordmark, .tagline {
+    width: 8rem;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.welcome-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+}
+.welcome-subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.last-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.last-articles-title {
+    font-size: 1.4rem;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.article-anchor {
+    flex: 1;
+    display: flex;
+    gap: .5rem;
+}
+.article-image {
+    width: 8rem;
+    object-fit: cover;
+}
+.article-introduction-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.article-title {
+    color: #010101;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.article-introduction-text {
+    color: #010101;
+    font-size: .9rem;
+}
+.click-here {
+    font-size: .7rem;
+    text-decoration: underline;
+}
+@media (min-width:768px) {
+    .articles { 
+        flex-direction: row;
+    }
+    .article-image {
+        width: 12rem;
+    }
+}
